@@ -1,71 +1,173 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<head>
-  <meta charset="UTF-8">
-  <title>About Page</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> 
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <Bootstrap CSS -->
+    <script src="https://use.fontawesome.com/4b3541b327.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous"> 
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   </head>
 
-<body>
-
-  <header class="clear">
-
-    <h1>Christina Matson</h1>
-
-      <div id="page-links">  
-        <a id="link-i" href="index.html">About</a>
-        <a id="link-c" href="contact.html">Contact</a>
-        <a id="link-p" href="portfolio.html">Portfolio</a>
-        
+  <body>
+    <div class="container-fluid">
+      <div class="cover text-center">
+        <nav class="navbar  fixed-top">
+          <!-- <a href="your link here"> <i class="fa fa-dribbble fa-4x"></i></a> -->
+          <a href="index.html"><i class="fa fa-home" style="font-size:50px;color:white;" aria-hidden="true"></i></a>
+          <ul class="nav justify-content-end">
+            <li class="nav-item ">
+              <a class="nav-link active " href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>  
+        </nav>
       </div>
-        
-  </header>
-
-  <div class="container"> 
-    <section>  
-
-      <h2>About Me</h2>
-      <hr></hr>
-
-      <div class="inner-container">
-
-          <img id="profile-pic" src="assets/images/IMG_3849.jpg" height="200" width="175" style="float: left;">
-
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dolor sem, vehicula in pellentesque vitae, commodo eu lacus. Maecenas vel purus ultricies, fermentum nisi tincidunt, accumsan nisl. Vestibulum et fermentum justo. Etiam vehicula lorem vitae augue aliquam dignissim. Nulla auctor nisl et nulla molestie varius. Donec erat elit, pellentesque eget eleifend ac, suscipit id ex. Cras in metus eu justo interdum lacinia vitae at turpis. 
-          </p>
-          <br>
-          <p>
-             Phasellus aliquam justo vel pharetra mollis. Curabitur sed quam ac nulla dictum elementum sed ut turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin placerat et libero ut posuere. Vivamus molestie vel tellus at mattis. Nullam in dignissim tellus, vitae euismod tortor. Aenean eu enim justo. In nec volutpat massa, eget egestas nibh. Ut non convallis velit, et finibus diam. 
-          </p>
-
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="container-fluid home">
+          <div class="col-md-8 m-5 text-center pt-5">
+            <h1>Hi, I'm Christina.</h1>
+            <h2>Web Developer</h2>
+            <h4>What can I develop for you?</h4>
+          </div>
+        </div>
       </div>
-
-    </section>
-
-
-  
-    <aside>
-    
-      <h3>Connect with Me</h3>
-      <hr class="connect-line"></hr>
-      <br>
-      <a class="img" target="_blank" href="https://www.linkedin.com/in/christina-matson-495720137/">
-      <img src="assets/images/if_LinkedIn_2613305.png" height="50px" width="50px"></a>
-      <a class="img" target="_blank" href="https://stackoverflow.com/users/8698992/cmatson?tab=profile"><img src="assets/images/if_StackOverflow_2613280.png" height="50px" width="50px"></a>
-      <a class="img" target="_blank" href="https://github.com/cmatson93"><img src="assets/images/if_Github_2613277.png" height="50px" width="50px"></a>
-
-    </aside>
-  
+    </div>
+    <div class="container-fluid about" id="about">
+      <div class="row justify-content-around">
+        <div class="col-8 mt-5">
+          <div class="card rounded">
+            <div class="row"><!-- <h4 class="card-header">About Me</h4> -->
+            <div class="col-md-4">
+              <img class="card-img-top" src="assets/images/IMG_3849.jpg" alt="Card image cap">
+            </div>
+            <div class="col-md-6">
+            <div class="card-body">
+              <h4 class="card-title">About Me</h4>
+              
+              <p class="card-text">After going to college and getting a degree in Biology I spent a few year working in the education field. I love learning and enjoy helping others to learn but never felt as if teaching was something I wanted to do forever. About a year ago I stumbled onto learning Python and immediately fell in love with computer science and programing. As of now I know a wide range of development skills and am looking for a front end engiener position.</p>
+            </div>
+          </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="row justify-content-around">
+        <div class="col-md-8 mt-5">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">Skills</h4>
+              <!-- <p>This is some text within a card body.</p> -->
+              <img src="assets/images/nodejs.png">
+              <img src="assets/images/python.png">
+              <img src="assets/images/javascript.png">
+              <img src="assets/images/mysql.png">
+              <img src="assets/images/reactjstutorial.png">
+              <img src="assets/images/jquery.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row portfolio" id="portfolio">
+      <div class="col align-self-center text-center  m-5">
+        <h2>Portfolio</h2>
+      </div>
+      <div class="row justify-content-around">
+        <div class="col-md-2">
+          <div class="card pcard text-white m-3" style="max-width: 20rem;">
+            <div class="card-header">Brolly Web App</div>
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="card pcard text-white m-3" style="max-width: 20rem;">
+            <div class="card-header">CrossKinect </div>
+            <div class="card-body">
+              <!-- <h4 class="card-title">CrossKinect</h4> -->
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="card pcard text-white m-3" style="max-width: 20rem;">
+            <div class="card-header">Group Maker</div>
+            <div class="card-body">
+              <!-- <h4 class="card-title">Dark card title</h4> -->
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="card pcard text-white m-3" style="max-width: 20rem;">
+            <div class="card-header">Project 3 APP</div>
+            <div class="card-body">
+              <!-- <h4 class="card-title">Dark card title</h4> -->
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+    </div>
   </div>
+  <div class="container-fluid contact" id="contact">
+    <div class="row justify-content-around">
+      <div class="col-md-8 mt-5 form">
+        <form class="mt-5 rounded">
+          <h3>Contact Me</h3>
+          <div class="form-group">
+            <label >Name</label>
+            <input type="text" class="form-control" id="inputName"  placeholder="Enter name">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn">Submit</button>
+        </form>
+      </div>
+    </div>
+    <div class="row justify-content-around">
+      <div class="col-md-8 mt-5 text-center">
+        <div class="card connect">
+          <div class="card-body">
+            <!-- <h4 class="card-title">Connect with Me</h4> -->
+            <div class="row">
+            <div class="col-5"><p>Email: cmatson93@gmail.com.</p> </div>
+             <div class="col-5"> <p>Phone: (816)-267-2072</p></div>
+             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-around">
+      <div class="col-md-8 mt-5 text-center">
+        <i class="fa fa-linkedin mr-3" aria-hidden="true"></i>
+        <i class="fa fa-github" aria-hidden="true"></i>
+      </div>
+    </div>
+  </div>
+  
+  <div class="fixed-bottom text-center"><footer>&copy;Copyright Christina Matson</footer></div>
 
-
-
-  <footer> @Copyright Christina Matson</footer>
-
-</body>
-
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  </body>
 </html>

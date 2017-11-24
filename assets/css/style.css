@@ -1,259 +1,70 @@
 body {
-	background-color: white;
-	line-height: 25px;
-	margin: 0;
-	padding: 0;
-}
-  
-header {
-	position: relative;
-	width: 100%;
-	height: 100px;
-	border-bottom: 3px solid #cccccc; 
-}
-
-.clear::after {
-	content: "";
-	display: block;
-	clear: both;
-}
-
-hr {
-	display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin-top: 50px;
-    padding: 0;
-}
-
-.connect-line {
-	display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin-top: 20px;
-    padding: 0;
-
+	padding-top: 5px;
+  /*background-color: #202833;*/
 }
 
 h1 {
-	/*position: absolute;*/
-	background: #20B2AA;
-	float: left;
-	color: #ffffff;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	font-size: 30px;
-	text-align: center;
-	padding: 40px;
-	margin-left: 130px;
+  font-size: 80px;
 }
 
-#page-links {
-	float: right;
-	position: absolute;
-	right: 20%;
-	top: 60%;
-	text-align: center;
-}
-
-#link-i {
-	border-right: solid 1px #ccc;
-	line-height: 10px;
-	padding-right: 5px;
-}
-
-#link-c {
-	border-right: solid 1px #ccc;
-	line-height: 10px;
-	padding-right: 5px; 
-	padding-left: 5px;
-}
-
-#link-p {
-	line-height: 10px;
-	padding-left: 5px;
+h2 {
+  font-size: 60px;
 }
 
 a {
-	color: #777777;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	text-decoration: none;
-}
-
-a:hover {
-	color: black;
-}
-
-.container {
-	background-image: url("../images/cork-wallet.png");
-	position: relative;
-	width: 100%;
-	height: 900px;
-	margin: 0;
-	padding-bottom: 100px;
-/*	overflow: auto;
-*/}
-
-h2 {
-	position: absolute;
-	color: #4aaaa5;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	font-size: 30px;
-	font-weight: bold;
-}
-
-.portfolio-session {
-	height: 800px;
-}
-
-#profile-pic {
-	margin: 10px;
-	top: 100px;
-}
-
-.inner-container {
-	position: absolute;
-	top: 100px;
-	padding: 20px;
-}
-
-.img:hover {
-	height: 52px;
-	width: 52px;
-}
-
-section {
-	position: absolute;
-	float: left;
-	width: 650px;
-	height: 500px;
-	background: white;
-	left: 120px;
-	top: 100px;
-	padding: 40px;
-	border: 2px solid #dddddd;
-	overflow: visible;
-
-}
-
-.contact-section {
-	height: 550px;
-}
-
-p {
-	color: #777777;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
-.images {
-	padding: 10px;
-}
-
-.blocks {
-	position: absolute;
-	background: #20B2AA;
-	right: 55px;
-	color: #ffffff;
-	padding: 20px;
-	width: 260px;
-	text-align: center;
-}
-
-.blocks-front {
-	position: absolute;
-	background: #20B2AA;
-	left: 50px;
-	color: #ffffff;
-	padding: 20px;
-	width: 260px;
-	text-align: center;
-}
-
-#block-1 {
-	top: 230px;
-}
-
-#block-2 {
-	top: 230px;
-}
-
-#block-3 {
-	top: 470px;
-}
-
-#block-4 {
-	top: 470px;
-}
-
-#block-5 {
-	top: 690px;
-}
-
-aside {
-	position: absolute;
-	right: 150px;
-	top: 100px;
-	float: right;
-	width: 270px;
-	height: 150px;
-	background: white;
-	padding: 20px;
-	text-align: center;
-	border: 2px solid #dddddd;
-	color: #4aaaa5;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	font-size: 20px;
-	font-weight: bold;
-}
-
-footer {
-	background: #666666;
-	border-top: 6px solid #4aaaa5;
-	height: 100px;
-	color: white;
-	text-align: center;
-}
-
+  color: #E5EAEE;
+} 
+h3,
 label {
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	color: #777777;
+ 	color: #202833;
 }
 
-/* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */  
-    border: 1px solid #ccc; /* Gray border */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	color: #777777;
+.fa {
+  font-size: 50px;
+  color: #E5EAEE;
 }
 
-/* Style the submit button with a specific background color etc */
-input[type=submit] {
-    background-color: #20B2AA;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
+
+.navbar,
+.pcard {
+  background-color: #202833;
 }
 
-/* When moving the mouse over the submit button, add a darker green color 
-*/input[type=submit]:hover {
-    background-color: #8ccac7;
+.home {
+  background: url("../images/glasses-2947708_1920.jpg") ;
+  opacity: 0.9;
+  background-size: 100% 100%;
+  height: 100vh;
 }
 
-/*/* Add a background color and some padding around the form */
-/*.container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-}*/
+.about,
+.contact {
+  /*background-image: url("../images/dark_mosaic.png") ;*/
+  background-color: #202833;
+  /*opacity: 0.9;*/
+  /*background-size: 100% 100%;*/
+  height: 100vh;
+}
 
+.portfolio {
+  background-color: #E5EAEE;
+  height: 100vh; 
+}
+
+form {
+  background-color: #E5EAEE;
+  padding: 10px;
+}
+
+button {
+  background-color: #202833;
+  color: #E5EAEE;
+}
+
+.connect {
+  background-color: #202833;
+  color: white;
+}
 
 
 

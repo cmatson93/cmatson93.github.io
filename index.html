@@ -12,159 +12,164 @@
   </head>
 
   <body>
-    <div class="container-fluid">
-      <div class="cover text-center">
-        <nav class="navbar  fixed-top">
-          <!-- <a href="your link here"> <i class="fa fa-dribbble fa-4x"></i></a> -->
-          <a href="index.html"><i class="fa fa-home" style="font-size:50px;color:white;" aria-hidden="true"></i></a>
-          <ul class="nav justify-content-end">
-            <li class="nav-item ">
-              <a class="nav-link active " href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>  
-        </nav>
+    <div class="scroller">
+        <div class="cover text-center">
+          <nav class="navbar  fixed-top">
+            <!-- <a href="your link here"> <i class="fa fa-dribbble fa-4x"></i></a> -->
+            <a href="index.html"><i class="fa fa-home" style="font-size:50px;color:white;" aria-hidden="true"></i></a>
+            <ul class="nav justify-content-end">
+              <li class="nav-item ">
+                <a class="nav-link active " href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>  
+          </nav>
+        </div>
+      <div class="container-fluid page">
+        <div class="row">
+          <div class="container-fluid home">
+            <div class="col-md-8 m-5 text-center pt-5 words">
+              <h1>Hi, I'm Christina.</h1>
+              <h2>Web Developer</h2>
+              <h4>What can I develop for you?</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid about page" id="about">
+        <div class="row justify-content-around">
+          <div class="col-8 mt-5">
+            <div class="card rounded">
+              <div class="row"><!-- <h4 class="card-header">About Me</h4> -->
+              <div class="col-md-4">
+                <img class="card-img-top" src="assets/images/IMG_3849.jpg" alt="Card image cap">
+              </div>
+              <div class="col-md-6">
+              <div class="card-body">
+                <h4 class="card-title">About Me</h4>
+                
+                <p class="card-text">After going to college and getting a degree in Biology I spent a few year working in the education field. I love learning and enjoy helping others to learn but never felt as if teaching was something I wanted to do forever. About a year ago I stumbled onto learning Python and immediately fell in love with computer science and programing. As of now I know a wide range of development skills and am looking for a front end engiener position.</p>
+              </div>
+            </div>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="row justify-content-around">
+          <div class="col-md-8 mt-5">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Skills</h4>
+                <!-- <p>This is some text within a card body.</p> -->
+                <img src="assets/images/nodejs.png">
+                <img src="assets/images/python.png">
+                <img src="assets/images/javascript.png">
+                <img src="assets/images/mysql.png">
+                <img src="assets/images/reactjstutorial.png">
+                <img src="assets/images/jquery.png">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row portfolio page" id="portfolio">
+        <div class="col align-self-center text-center  mt-3 mb-0">
+          <h2>Portfolio</h2>
+        </div>
+        <div class="row justify-content-around">
+          <div class="col-md-2">
+            <div class="card pcard text-white m-3" style="max-width: 20rem;">
+              <div class="card-header">Brolly Web App</div>
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card pcard text-white m-3" style="max-width: 20rem;">
+              <div class="card-header">CrossKinect </div>
+              <div class="card-body">
+                <!-- <h4 class="card-title">CrossKinect</h4> -->
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card pcard text-white m-3" style="max-width: 20rem;">
+              <div class="card-header">Group Maker</div>
+              <div class="card-body">
+                <!-- <h4 class="card-title">Dark card title</h4> -->
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card pcard text-white m-3" style="max-width: 20rem;">
+              <div class="card-header">Project 3 APP</div>
+              <div class="card-body">
+                <!-- <h4 class="card-title">Dark card title</h4> -->
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
       </div>
     </div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="container-fluid home">
-          <div class="col-md-8 m-5 text-center pt-5">
-            <h1>Hi, I'm Christina.</h1>
-            <h2>Web Developer</h2>
-            <h4>What can I develop for you?</h4>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid about" id="about">
+    <div class="container-fluid contact page" id="contact">
       <div class="row justify-content-around">
-        <div class="col-8 mt-5">
-          <div class="card rounded">
-            <div class="row"><!-- <h4 class="card-header">About Me</h4> -->
-            <div class="col-md-4">
-              <img class="card-img-top" src="assets/images/IMG_3849.jpg" alt="Card image cap">
+        <div class="col-md-8 mt-5 form">
+          <form class="mt-5 rounded">
+            <h3>Contact Me</h3>
+            <div class="form-group">
+              <label >Name</label>
+              <input type="text" class="form-control" id="inputName"  placeholder="Enter name">
             </div>
-            <div class="col-md-6">
-            <div class="card-body">
-              <h4 class="card-title">About Me</h4>
-              
-              <p class="card-text">After going to college and getting a degree in Biology I spent a few year working in the education field. I love learning and enjoy helping others to learn but never felt as if teaching was something I wanted to do forever. About a year ago I stumbled onto learning Python and immediately fell in love with computer science and programing. As of now I know a wide range of development skills and am looking for a front end engiener position.</p>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
             </div>
-          </div>
-          </div>
-        </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+          </form>
         </div>
       </div>
       <div class="row justify-content-around">
-        <div class="col-md-8 mt-5">
-          <div class="card">
+        <div class="col-md-8 mt-5 text-center">
+          <div class="card connect">
             <div class="card-body">
-              <h4 class="card-title">Skills</h4>
-              <!-- <p>This is some text within a card body.</p> -->
-              <img src="assets/images/nodejs.png">
-              <img src="assets/images/python.png">
-              <img src="assets/images/javascript.png">
-              <img src="assets/images/mysql.png">
-              <img src="assets/images/reactjstutorial.png">
-              <img src="assets/images/jquery.png">
+              <!-- <h4 class="card-title">Connect with Me</h4> -->
+              <div class="row">
+              <div class="col-5">
+                <i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i><p>cmatson93@gmail.com.</p> 
+              </div>
+              <div class="col-5">
+                <i class="fa fa-mobile fa-2x" aria-hidden="true"></i><p>(816)-267-2072</p></div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="row portfolio" id="portfolio">
-      <div class="col align-self-center text-center  m-5">
-        <h2>Portfolio</h2>
       </div>
       <div class="row justify-content-around">
-        <div class="col-md-2">
-          <div class="card pcard text-white m-3" style="max-width: 20rem;">
-            <div class="card-header">Brolly Web App</div>
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
+        <div class="col-md-8 mt-5 text-center">
+          <i class="fa fa-linkedin mr-3 fa-3x" aria-hidden="true"></i>
+          <i class="fa fa-github fa-3x" aria-hidden="true"></i>
         </div>
-        <div class="col-md-2">
-          <div class="card pcard text-white m-3" style="max-width: 20rem;">
-            <div class="card-header">CrossKinect </div>
-            <div class="card-body">
-              <!-- <h4 class="card-title">CrossKinect</h4> -->
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-2">
-          <div class="card pcard text-white m-3" style="max-width: 20rem;">
-            <div class="card-header">Group Maker</div>
-            <div class="card-body">
-              <!-- <h4 class="card-title">Dark card title</h4> -->
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-2">
-          <div class="card pcard text-white m-3" style="max-width: 20rem;">
-            <div class="card-header">Project 3 APP</div>
-            <div class="card-body">
-              <!-- <h4 class="card-title">Dark card title</h4> -->
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-        </div>
+      </div>
     </div>
   </div>
-  <div class="container-fluid contact" id="contact">
-    <div class="row justify-content-around">
-      <div class="col-md-8 mt-5 form">
-        <form class="mt-5 rounded">
-          <h3>Contact Me</h3>
-          <div class="form-group">
-            <label >Name</label>
-            <input type="text" class="form-control" id="inputName"  placeholder="Enter name">
-          </div>
-          <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
-          <button type="submit" class="btn">Submit</button>
-        </form>
-      </div>
-    </div>
-    <div class="row justify-content-around">
-      <div class="col-md-8 mt-5 text-center">
-        <div class="card connect">
-          <div class="card-body">
-            <!-- <h4 class="card-title">Connect with Me</h4> -->
-            <div class="row">
-            <div class="col-5"><p>Email: cmatson93@gmail.com.</p> </div>
-             <div class="col-5"> <p>Phone: (816)-267-2072</p></div>
-             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row justify-content-around">
-      <div class="col-md-8 mt-5 text-center">
-        <i class="fa fa-linkedin mr-3" aria-hidden="true"></i>
-        <i class="fa fa-github" aria-hidden="true"></i>
-      </div>
-    </div>
   </div>
   
   <div class="fixed-bottom text-center"><footer>&copy;Copyright Christina Matson</footer></div>
 
     <!-- Optional JavaScript -->
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>

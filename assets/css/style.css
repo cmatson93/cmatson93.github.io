@@ -124,6 +124,13 @@ h1 {
     }
 }
 
+/*skill images sizes*/
+
+.skills img {
+  height: 60px;
+  width: 60px;
+}
+
 /*portfolio css effects*/
 
 div.item {
@@ -178,7 +185,10 @@ div.item:hover p {
   height: 200px; 
 }
 
-
+/*social media icons on hover */
+.social i:hover {
+  color: grey;
+}
 
 
 

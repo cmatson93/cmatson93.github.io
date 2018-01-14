@@ -136,7 +136,7 @@ div.item {
   position: relative;
   /*float: left;*/
   overflow: hidden;
-  margin: 10px 1%;
+  margin: 10px 10px;
   min-width: 200px;
   max-width: 410px;
   width: 100%;
@@ -145,6 +145,7 @@ div.item {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
   /*box-sizing: border-box;*/
   background-color: #202833;
+  border: 3px solid #202833;
   border-radius: 5px;
 }
 

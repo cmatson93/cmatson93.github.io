@@ -132,7 +132,7 @@
         <div class="col-md-8 mt-5 text-center">
           <div class="card connect">
             <div class="card-body">
-              <!-- <h4 class="card-title justify-content-center">Connect with Me</h4> -->
+              <h3 class="card-title justify-content-center">Connect with Me</h3>
               <div class="row social">
               <div class="col ">
                 <i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i><p>cmatson93@gmail.com.</p> 
@@ -145,33 +145,39 @@
         </div>
       </div>
       <div class="row">
-        <div class="col contact-form">
-          <form id="gform" method="POST" class="gform" data-email="example@email.net"
-      action="https://script.google.com/macros/s/AKfycbyEQ4ifMVSaomGaDAzjzFNQiCEZcwechMxGyaaHx2DvZ7QYXdZM/exec">
+        <div class="col ">
+          <div class="card contact-form">
+            <div class="card-body contact-body">
+              <!-- <h5 class="card-title">Connect with Me</h5> -->
+  
+                <form id="gform" method="POST" class="gform" data-email="example@email.net"
+                action="https://script.google.com/macros/s/AKfycbyEQ4ifMVSaomGaDAzjzFNQiCEZcwechMxGyaaHx2DvZ7QYXdZM/exec">
+                
+                <div class="form-group">
+                  <label for="name">Name: </label><br>
+                  <input id="name" name="name" placeholder="Name" />
+                </div>
 
-        <fieldset class="form-group">
-          <label for="name">Name: </label>
-          <input id="name" name="name" placeholder="Name" />
-        </fieldset>
+                <div class="form-group">
+                  <label for="message">Message: </label><br>
+                  <textarea id="message" name="message" rows="10"
+                  placeholder="Message..."></textarea>
+                </div>
 
-        <fieldset class="form-group">
-          <label for="message">Message: </label>
-          <textarea id="message" name="message" rows="10"
-          placeholder="Message..."></textarea>
-        </fieldset>
+                <div class="form-group">
+                  <label for="email"><em>Your</em> Email Address:</label><br>
+                  <input id="email" name="email" type="email" value=""
+                  required placeholder="your.name@email.com"/>
+                  <span id="email-invalid" style="display:none">
+                    Must be a valid email address</span>
+                </div>
 
-        <fieldset class="form-group">
-          <label for="email"><em>Your</em> Email Address:</label>
-          <input id="email" name="email" type="email" value=""
-          required placeholder="your.name@email.com"/>
-          <span id="email-invalid" style="display:none">
-            Must be a valid email address</span>
-        </fieldset>
-
-        <button class="button-success pure-button button-xlarge">
-          <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
-
-      </form>
+                <button class="button-success pure-button button-xlarge">
+                  <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+              </form>
+            </div>
+          </div
+          
 
       <!-- Customise the Thankyou Message People See when they submit the form: -->
       <div style="display:none;" id="thankyou_message">

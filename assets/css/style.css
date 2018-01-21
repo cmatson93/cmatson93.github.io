@@ -67,29 +67,52 @@ button {
 .connect {
   background-color: #202833;
   color: white;
-  padding-bottom: 50px;
+  /*padding-bottom: 50px;*/
 }
 
-#gform {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 10px;
+.connect h3 {
+  color: white;
+}
+
+.contact-form {
+  margin: 20px 150px;
+  background-color: #E5EAEE;
+  color: 202833;
 }
 
 #gform label {
-  color: white;
+  color: #202833;
+  margin-left: 25px;
 }
 
 #gform textarea {
   height: 100px;
-  width: 400px;
+  width: 95%;
+  border-radius: 2px;
+  background-color: #202833;
+  border: 2px solid white;
+  padding: 5px;
+  margin-left: 25px;
+}
+
+#gform input {
+  border-radius: 2px;
+  width: 95%;
+  margin-left: 25px;
+  background-color: #202833;
+  border: 2px solid #363d47;
+  padding: 5px;
 }
 
 #gform button {
   width: 150px;
   border-radius: 2px;
+  margin-left: 25px;
+  padding: 5px;
+}
 
+#gform button:hover {
+  background-color: #363d47; 
 }
 
 

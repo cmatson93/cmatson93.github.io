@@ -115,8 +115,8 @@ button {
   background-color: #363d47; 
 }
 
-#thankyou_message {
-  /*color: white;*/
+textarea, input {
+  color: grey;
 }
 
 @-webkit-keyframes typing { from { width: 0; } }

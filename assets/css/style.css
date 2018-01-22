@@ -67,7 +67,7 @@ button {
 .connect {
   background-color: #202833;
   color: white;
-  /*padding-bottom: 50px;*/
+  /*margin-top: 20px;*/
 }
 
 .connect h3 {
@@ -115,6 +115,9 @@ button {
   background-color: #363d47; 
 }
 
+#thankyou_message {
+  /*color: white;*/
+}
 
 @-webkit-keyframes typing { from { width: 0; } }
 @-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
